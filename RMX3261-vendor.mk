@@ -1587,6 +1587,18 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3261/proprietary/vendor/logo/watermark_988x102_pic_size_4160x2336.rgba:$(TARGET_COPY_OUT_VENDOR)/logo/watermark_988x102_pic_size_4160x2336.rgba \
     vendor/realme/RMX3261/proprietary/vendor/media/audio_sample.pcm:$(TARGET_COPY_OUT_VENDOR)/media/audio_sample.pcm \
     vendor/realme/RMX3261/proprietary/vendor/media/engtest_sample.pcm:$(TARGET_COPY_OUT_VENDOR)/media/engtest_sample.pcm \
+    vendor/realme/RMX3261/proprietary/vendor/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc \
+    vendor/realme/RMX3261/proprietary/vendor/usr/idc/adaptive_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/adaptive_ts.idc \
+    vendor/realme/RMX3261/proprietary/vendor/usr/idc/focaltech_ats.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/focaltech_ats.idc \
+    vendor/realme/RMX3261/proprietary/vendor/usr/idc/focaltech_spi_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/focaltech_spi_ts.idc \
+    vendor/realme/RMX3261/proprietary/vendor/usr/idc/focaltech_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/focaltech_ts.idc \
+    vendor/realme/RMX3261/proprietary/vendor/usr/idc/msg2138_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/msg2138_ts.idc \
+    vendor/realme/RMX3261/proprietary/vendor/usr/idc/synaptics_dsx.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/synaptics_dsx.idc \
+    vendor/realme/RMX3261/proprietary/vendor/usr/idc/synaptics_dsx_i2c.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/synaptics_dsx_i2c.idc \
+    vendor/realme/RMX3261/proprietary/vendor/usr/keylayout/adaptive_ts.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/adaptive_ts.kl \
+    vendor/realme/RMX3261/proprietary/vendor/usr/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
+
+ODM_MANIFEST_FILES += \
     vendor/realme/RMX3261/proprietary/vendor/odm/etc/comsoft/build_S19610AA1.prop:$(TARGET_COPY_OUT_ODM)/odm/etc/comsoft/build_S19610AA1.prop \
     vendor/realme/RMX3261/proprietary/vendor/odm/etc/comsoft/build_S19610BA1.prop:$(TARGET_COPY_OUT_ODM)/odm/etc/comsoft/build_S19610BA1.prop \
     vendor/realme/RMX3261/proprietary/vendor/odm/etc/comsoft/build_S19610CA1.prop:$(TARGET_COPY_OUT_ODM)/odm/etc/comsoft/build_S19610CA1.prop \
@@ -1688,16 +1700,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3261/proprietary/vendor/odm/etc/vintf/manifest_S19612HA1.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_S19612HA1.xml \
     vendor/realme/RMX3261/proprietary/vendor/odm/etc/vintf/manifest_S19612KA1.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_S19612KA1.xml \
     vendor/realme/RMX3261/proprietary/vendor/odm/etc/vintf/manifest_S19612LA1.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_S19612LA1.xml \
-    vendor/realme/RMX3261/proprietary/vendor/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc \
-    vendor/realme/RMX3261/proprietary/vendor/usr/idc/adaptive_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/adaptive_ts.idc \
-    vendor/realme/RMX3261/proprietary/vendor/usr/idc/focaltech_ats.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/focaltech_ats.idc \
-    vendor/realme/RMX3261/proprietary/vendor/usr/idc/focaltech_spi_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/focaltech_spi_ts.idc \
-    vendor/realme/RMX3261/proprietary/vendor/usr/idc/focaltech_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/focaltech_ts.idc \
-    vendor/realme/RMX3261/proprietary/vendor/usr/idc/msg2138_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/msg2138_ts.idc \
-    vendor/realme/RMX3261/proprietary/vendor/usr/idc/synaptics_dsx.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/synaptics_dsx.idc \
-    vendor/realme/RMX3261/proprietary/vendor/usr/idc/synaptics_dsx_i2c.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/synaptics_dsx_i2c.idc \
-    vendor/realme/RMX3261/proprietary/vendor/usr/keylayout/adaptive_ts.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/adaptive_ts.kl \
-    vendor/realme/RMX3261/proprietary/vendor/usr/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
 
 PRODUCT_PACKAGES += \
     CameraIPControl \
