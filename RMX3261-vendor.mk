@@ -1706,26 +1706,3 @@ PRODUCT_PACKAGES += \
     LogManager \
     ProxyNFwLocation \
     ims \
-    android.hardware.biometrics.fingerprint@2.1-service \
-    android.hardware.cas@1.2-service \
-    android.hardware.gatekeeper@1.0-service.trusty \
-    android.hardware.health@2.1 \
-    android.hardware.keymaster@4.1-unisoc.service \
-    android.hardware.power.stats@1.0-service-mock \
-    android.hardware.thermal@2.0-service \
-    android.hardware.wifi.hostapd \
-    android.hardware.wifi@1.0-service \
-    lights \
-    manifest \
-    manifest_android.hardware.drm@1.3-service.clearkey \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    manifest_dualsim \
-    manifest_face \
-    rebootescrow-default \
-    vendor-power-default \
-    vendor.sprd.hardware.boot@1.1 \
-    vendor.sprd.hardware.fingerprintmmi@1.0-service \
-    vendor.sprd.hardware.gnss@2.1-service \
-    vendor.sprd.hardware.thermal@2.0-service \
-    vendor.sprd.hardware.vdsp@1.0-service-lazy \
-    vibrator
