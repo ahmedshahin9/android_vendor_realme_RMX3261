@@ -26,32 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3261/proprietary/lib64/libstagefright_framecapture_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_framecapture_utils.so \
     vendor/realme/RMX3261/proprietary/lib64/libstagefright_surface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_surface.so \
     vendor/realme/RMX3261/proprietary/lib64/libstagefright_wfd.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_wfd.so \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19610AA1.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19610AA1.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19610BA1.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19610BA1.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19610CA1.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19610CA1.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19610DA1.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19610DA1.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19610EA1.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19610EA1.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19610FA1.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19610FA1.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19610GA1.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19610GA1.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19610HA1.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19610HA1.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19610JA1.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19610JA1.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19610_RU.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19610_RU.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19610_TR.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19610_TR.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19612AA1.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19612AA1.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19612BA1.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19612BA1.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19612CA1.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19612CA1.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19612DA1.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19612DA1.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19612EA1.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19612EA1.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19612FA1.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19612FA1.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19612GA1.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19612GA1.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19612HA1.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19612HA1.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19612KA1.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19612KA1.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19612LA1.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19612LA1.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19612_EU-NONEEA.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19612_EU-NONEEA.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19612_EUEX.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19612_EUEX.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19612_RU.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19612_RU.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/comsoft/build_S19612_TR.prop:$(TARGET_COPY_OUT_ODM)/etc/comsoft/build_S19612_TR.prop \
-    vendor/realme/RMX3261/proprietary/odm/etc/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor_config.json \
     vendor/realme/RMX3261/proprietary/system_ext/etc/init/dataLogDaemon.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dataLogDaemon.rc \
     vendor/realme/RMX3261/proprietary/system_ext/etc/init/data_rps.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/data_rps.rc \
     vendor/realme/RMX3261/proprietary/vendor/bin/Phison_FFU_04_version.bin:$(TARGET_COPY_OUT_VENDOR)/bin/Phison_FFU_04_version.bin \
