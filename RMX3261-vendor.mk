@@ -1609,8 +1609,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3261/proprietary/vendor/odm/etc/permissions/sku_S19612HA1/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_S19612HA1/com.nxp.mifare.xml \
     vendor/realme/RMX3261/proprietary/vendor/odm/etc/permissions/sku_S19612HA1/com.nxp.nfc.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/permissions/sku_S19612HA1/com.nxp.nfc.xml \
     vendor/realme/RMX3261/proprietary/vendor/odm/etc/sensor_config.json:$(TARGET_COPY_OUT_ODM)/odm/etc/sensor_config.json \
-
-ODM_MANIFEST_FILES += \
     vendor/realme/RMX3261/proprietary/vendor/odm/etc/vintf/manifest_S19610AA1.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_S19610AA1.xml \
     vendor/realme/RMX3261/proprietary/vendor/odm/etc/vintf/manifest_S19610BA1.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_S19610BA1.xml \
     vendor/realme/RMX3261/proprietary/vendor/odm/etc/vintf/manifest_S19610CA1.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_S19610CA1.xml \
